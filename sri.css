@@ -1,0 +1,164 @@
+
+body{
+   background-color: rgb(13, 2, 29);
+  
+}
+nav{
+    align-items: center;
+    display: flex;
+    padding: 20px 8%;
+    
+    
+}
+nav ul{
+    flex: 1 ;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0%   10px;
+    list-style: none;
+   
+}
+nav ul li a{
+    text-decoration:none ;
+    color:white;
+}
+nav ul li a:hover{
+    color:#949999; ;
+}
+button{
+   
+    background-color:white ;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0  ;
+    text-align: center;
+    position: relative;
+    
+}
+#home{
+    background-image: linear-gradient(rgba(9,5,54,0.3) , rgba(5,4,46,0.7)) ,url("/photos/khu.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:left;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 2%;
+   
+ }
+ h1{
+    color: rgb(13, 2, 29);
+ }
+ p{
+   color: rgb(13, 2, 29);
+ }
+ 
+#home .btn{
+    margin-top: 30px;
+}
+ #home a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: aliceblue;
+ font-weight: 600;
+    border-radius: 5px;
+ }
+
+ #home a.GREY{
+    color: white;
+    background: rgb(13, 2, 29);
+    transition: 0.3s;
+ }
+ #home a.GREY{
+    color: white;
+    background:  rgb(13, 2, 29);
+    transition: 0.3s;
+    border-radius: 40px;
+ }
+ 
+ #home a.GREY:hover{
+    color:rgb(13, 2, 29);
+    background: white;
+ }
+ #homes{
+    background-image: linear-gradient(rgba(9,5,54,0.3) , rgba(5,4,46,0.7)) ,url("/photos/about.jpg" );
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding-top: 40px;
+    
+ }
+ h1{
+    color: rgb(13, 2, 29);
+ }
+ p{
+   color: rgb(13, 2, 29);
+ }
+ #hom{
+   background-image: linear-gradient(rgba(9,5,54,0.3) , rgba(5,4,46,0.7)) ,url("/photos/c.jpg" );
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   text-align: center;
+   padding-top: 40px;
+   padding-left: 3%;
+  
+   
+}
+h1{
+   color: rgb(13, 2, 29);
+}
+p{
+  color: rgb(13, 2, 29);
+}
+#h{
+   background-image: linear-gradient(rgba(9,5,54,0.3) , rgba(5,4,46,0.7)) ,url("/photos/r.jpg" );
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   text-align: center;
+   padding-top: 40px;
+   padding-left: 3%;
+  
+   
+}
+h1 b{
+   color: rgb(13, 2, 29);
+   margin-right: 40px;
+}
+ p{
+  color: rgb(13, 2, 29);
+  margin-right: 90px;
+  padding-left: 0.2%;
+}
+
+
+
+ 
+
+ 
